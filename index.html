@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#24191d">
+  <meta name="description" content="Welcome to our world.">
+  <title>WELCOME TO OUR WORLD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="login-screen" id="loginScreen">
+    <div class="login-scenery" aria-hidden="true">
+      <div class="sun"></div>
+      <div class="mountains mountain-back"></div>
+      <div class="mountains mountain-front"></div>
+    </div>
+
+    <form class="login-card" id="loginForm">
+      <p class="login-kicker">OUR LITTLE UNIVERSE</p>
+      <h1>Login</h1>
+      <p class="login-welcome">Welcome back, please enter our little world.</p>
+
+      <label class="password-wrap" for="sitePassword">
+        <input id="sitePassword" type="password" placeholder="Password"
+               autocomplete="current-password" required>
+        <button class="show-password" id="togglePassword" type="button"
+                aria-label="Tampilkan password">◉</button>
+      </label>
+
+      <label class="remember">
+        <input id="rememberMe" type="checkbox">
+        <span class="checkmark">✓</span>
+        <span>Remember me</span>
+      </label>
+
+      <button class="login-button" type="submit">
+        Login <span aria-hidden="true">→</span>
+      </button>
+      <p class="login-message" id="loginMessage" role="status"
+         aria-live="polite"></p>
+      <p class="login-credit">A little place for us <span>♥</span></p>
+    </form>
+  </main>
+
+  <main class="landing" id="siteContent" hidden>
+    <div class="glow glow-one" aria-hidden="true"></div>
+    <div class="glow glow-two" aria-hidden="true"></div>
+
+    <header class="topline">
+      <span class="heart-mark">♡</span>
+      <span>OUR LITTLE UNIVERSE</span>
+      <span class="heart-mark">♡</span>
+    </header>
+
+    <section class="hero" aria-label="Welcome to our world">
+      <div class="heading-wrap">
+        <p class="eyebrow">a place made for us</p>
+        <h1>WELCOME <span>TO</span><br>OUR WORLD</h1>
+      </div>
+
+      <figure class="photo-card">
+        <img class="couple-photo" src="aku dan kamu.jpeg"
+             alt="Foto berdua di tepi pantai" fetchpriority="high">
+        <figcaption>
+          <span>just you, me &amp; our memories</span>
+          <span class="caption-heart">♥</span>
+        </figcaption>
+      </figure>
+
+      <section class="video-card" aria-label="Video kenangan kita">
+        <p class="video-eyebrow">a little moving memory</p>
+        <video class="memory-video" controls playsinline preload="metadata"
+               poster="ygng.jpeg">
+          <source src="yngdil.mp4" type="video/mp4">
+          Browser kamu belum mendukung pemutar video.
+        </video>
+      </section>
+
+      <p class="little-note">
+        Every love story is beautiful, but ours is my favorite.
+      </p>
+
+      <div class="visit-links" aria-label="Website pilihan">
+        <a class="visit-card"
+           href="https://angga147.github.io/Website-yngdll14/"
+           aria-label="Buka Enter Our World">
+          <img src="90.jpeg" alt="Foto kita di pantai">
+          <span class="visit-shade"></span>
+          <span class="visit-label">ENTER OUR WORLD <b>↗</b></span>
+        </a>
+      </div>
+    </section>
+
+    <footer>MADE WITH LOVE <span>♥</span></footer>
+    <div class="hearts" aria-hidden="true"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
